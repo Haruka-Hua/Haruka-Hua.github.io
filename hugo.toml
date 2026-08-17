@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://haruka-hua.github.io/'
 locale = 'zh-cn'
 title = 'Haruka-Blog'
 theme = 'xmin'

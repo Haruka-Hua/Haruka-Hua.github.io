@@ -1,0 +1,20 @@
+baseURL = 'https://example.org/'
+locale = 'zh-cn'
+title = 'Haruka-Blog'
+theme = 'xmin'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+    footer = '&copy; [Haruka-Hua](https://github.com/Haruka-Hua) 2026 -- {Year} | [GitHub](https://github.com/Haruka-Hua) | [知乎](https://www.zhihu.com/people/87-6-68-62-9) | [Email1](mailto:gtyl2006@163.com) | [Email2](mailto:tianyao.hua@nju.edu.cn) '
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Travelogue'
+  url = '/travelogue/'
+  weight = 2

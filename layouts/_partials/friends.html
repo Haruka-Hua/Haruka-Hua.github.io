@@ -1,0 +1,22 @@
+{{ with hugo.Data.friends.links }}
+<section class="friends">
+  <h2>Friends</h2>
+  <ul style="list-style:none; padding-left:0;">
+    {{ range . }}
+    {{ $friend := . }}
+    <li style="display:flex; align-items:center; margin-bottom:0.6em;">
+      <span style="display:inline-block; width:42px; flex-shrink:0;">
+        {{ with $friend.avatar }}
+        <img src="{{ . }}" alt="{{ $friend.name }}" width="32"
+             style="border-radius:5px;">
+        {{ end }}
+      </span>
+      <span>
+        <a href="{{ $friend.url }}" target="_blank" rel="noopener">{{ $friend.name }}</a>
+        {{ with $friend.desc }}<span style="color:#888"> - {{ . }}</span>{{ end }}
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

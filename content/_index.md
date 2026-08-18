@@ -4,7 +4,12 @@ draft = false
 title = "Haruka's Blog"
 +++
 
-<img src="/images/avatar.jpg" alt="Haruka" width="130" style="border-radius:50%; float:right; margin:2em 2em 1em 1em; box-shadow:0 0 8px rgba(0,0,0,0.3)">
+<div style="float:right; margin:2em 2em 1em 1em; text-align:center; width:130px;">
+    <img src="/images/avatar.jpg" alt="Haruka" width="130" style="border-radius:50%; box-shadow:0 0 8px rgba(0,0,0,0.3); display:block;">
+    <div style="font-size:0.85em; color:#666; margin-top:0.6em; line-height:1.4;">
+        星不囿于黑夜，<br>投出满溢的流光。
+    </div>
+</div>
 
 # Haruka's Blog
 
@@ -76,4 +81,4 @@ Countries I have traveled to:
 
 I like taking photos and playing around with cameras. Although I am not very good at it. I still enjoy adjusting the arguments and looking for the best compositions.
 
-# Recent Posts
+## Recent Posts

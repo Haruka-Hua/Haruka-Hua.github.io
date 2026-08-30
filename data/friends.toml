@@ -15,3 +15,9 @@ name = "selflo"
 url = "https://selflo06.com/"
 avatar = "https://images.selflo06.com/profile.jpg"
 desc = "Stay hungry, stay foolish."
+
+[[links]]
+name = "Runnel Zhang"
+url = "https://www.runnelzhang.com/"
+avatar = ""
+desc = "Il nous montre une correspondance subtile et fine, comme venue du vide."
